@@ -21,6 +21,18 @@ class Student {
         System.out.println("FirstName" + " " + FirstName + " " + "LastName" + " " + LastName + " " + "Age" + " " + age
                 + " " + "section" + " " + section);
     }
+
+    public void printPolymorphismDetails(String FirstName) {
+        System.out.println(this.FirstName);
+    }
+
+    public void printPolymorphismDetails(String FirstName, String LastName) {
+        System.out.println(this.FirstName + " " + this.LastName);
+    }
+
+    public void printPolymorphismDetails(int age) {
+        System.out.println(this.age);
+    }
 }
 
 public class oops {
@@ -37,6 +49,8 @@ public class oops {
         student.age = 24;
         student.section = "fourth";
         student.printStudentDetails();
+        student.printPolymorphismDetails(student.FirstName, student.LastName);
+        student.printPolymorphismDetails(student.age);
     }
 
 }
