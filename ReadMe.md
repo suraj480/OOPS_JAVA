@@ -24,3 +24,5 @@ Data and the program that manipulate those data are bound together and their com
 # most important concept interface
 ## helps to take properties of two different class in our desired class and this is known as multiple inheritence
 ### interface implement (not extends) in interface u can not create non-abstract function and it can not have constructors  
+### An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
